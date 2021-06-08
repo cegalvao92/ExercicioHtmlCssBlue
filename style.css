@@ -1,0 +1,104 @@
+#logo{
+  width: 100px;
+}
+
+#cabecalho{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.container{
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+#containerLeftRigth{
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  padding: 5px;
+}
+
+#left{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 0.5rem;
+  background-color: yellow;
+  color: black;
+  padding: 15px;
+  border-radius: 25px;
+
+}
+
+#right{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 0.5rem;
+  background-color: #f059c3;
+  color: black;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+#tableContainerHeader{
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+}
+
+#header1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  border: 1px solid black;
+  font-weight: bold;
+  padding: 15px;
+  margin: 2.5px;
+}
+
+#header2{
+  display: flex;
+  border: 1px solid black;
+  font-weight: bold;
+  padding: 15px;
+  margin: 2.5px;
+  max-width: 4rem;
+  min-width: 4rem;
+}
+
+#tableContainer{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-self: stretch;
+}
+
+.students1{
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 2.5px;
+}
+
+.students2{
+  display: flex;
+  border: 1px solid black;
+  flex-grow: 0.04;
+  margin-right: 200px;
+  padding: 15px;
+  margin: 2.5px;
+  max-width: 4rem;
+  min-width: 4rem;
+}
+
